@@ -1,5 +1,10 @@
-@extends('layout')
+@extends('pastel-layout')
 
 @section('content')
-    <p>length: {{ $length }} character(s)</p>
+  <p>{{ $post }}</p>
+  <p>length: {{ $length }} character(s)</p>
+@endsection
+
+@section('title')
+Első blogbejegyzés
 @endsection

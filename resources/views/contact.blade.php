@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('pastel-layout')
 
 @section('content')
 <h1>Ez egy kapcsolati oldal.</h1>

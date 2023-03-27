@@ -1,6 +1,9 @@
-@extends('layout')
+@extends('pastel-layout')
 
 @section('content')
-  Hi, {{ $name }}
+    Hi, {{ $name }}
 @endsection
 
+@section('title')
+    Kezdőoldal
+@endsection

@@ -15,9 +15,7 @@ use App\Http\Controllers\Post;
 |
 */
 
-Route::get('/', function () {
-    return view('layout');
-});
+Route::view('/', 'welcome', ['name' => 'John']);
 
 /*Route::get('/contact', function () {
     return view('contact');

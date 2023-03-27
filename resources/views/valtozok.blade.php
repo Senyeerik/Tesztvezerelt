@@ -9,6 +9,6 @@
 <body>
 <div>Hi, <?php echo $val; ?></div>
 {{$val}}
-Hi, <?= $val; ?> 
+Hi, <?= $val; ?>
 </body>
 </html>
